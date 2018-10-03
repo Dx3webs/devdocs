@@ -131,7 +131,7 @@ As a result of the two example commands, Magento adds lines similar to the follo
             'backend' => 'Cm_Cache_Backend_Redis',
             'backend_options' =>
               array(
-                'server' => 'redis.example.com',
+                'server' => '127.0.0.1',
                 'database' => '0',
                 'port' => '6379'
               ),
@@ -141,7 +141,7 @@ As a result of the two example commands, Magento adds lines similar to the follo
             'backend' => 'Cm_Cache_Backend_Redis',
             'backend_options' =>
               array(
-                'server' => 'redis.example.com',
+                'server' => '127.0.0.1',
                 'port' => '6379',
                 'database' => '1',
                 'compress_data' => '0'
